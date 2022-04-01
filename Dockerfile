@@ -1,4 +1,4 @@
-FROM node:12.11.1-slim
+FROM node:12.22.11-slim
 
 RUN apt-get update && \
     apt-get install -y git calibre && \
